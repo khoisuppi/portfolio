@@ -1,0 +1,152 @@
+
+body {
+	background: rgb(161, 204, 174);
+}
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 56px;
+	left:0px;
+	background :linear-gradient(to right, lightgreen, lightblue);
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #818181;
+	display: block;
+	text-align: center;
+}
+
+.sidenav a:hover {
+	color: violet;
+}
+.sidenav-right {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 56px;
+	right:0px;
+	background :linear-gradient(to left, lightgreen, lightblue);
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.main {
+	margin-left: 180px;
+}
+@media screen and (max-width: 960px) {
+	.sidenav, .sidenav-right {
+		display: none !important;
+	}
+	.main{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.profile {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.profile img {
+	width:200px;
+	height: 200px;
+}
+.name {
+	font-size: 	28px;
+	font-weight: 700;
+	margin-bottom: 	20px;
+}
+.title {
+	font-size: 180%;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+/*contacts section */
+.contact {
+	text-align: center;
+}
+.contact img {
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.social {
+	text-align: center;
+	padding-top: 5px;
+	margin: auto;
+}
+.social img {
+	width : 50px;
+	height:50px;
+}
+
+/*skills section */
+
+.progress-title{
+	font-size: 14px;
+}
+.progress{
+	height: 20px;
+	background: #ddd;
+	border-radius: 20px;
+	border: 1px solid black;
+	box-shadow: 0 2px 2px black;
+	margin-bottom: 40px;
+}
+
+/*language section */
+.language {
+	margin-top: 12px; 
+	text-align: center;
+}
+.card {
+	width: 200px;
+	height: 220px;
+	margin: auto;
+	background-color: #ddd;
+	border-radius: 	20px;
+	box-shadow: 0 2px 2px black;
+}
+.card-img-top {
+	width: 200px;
+	height: 140px;
+	display: block;
+
+}
+
+/*hobby section */
+
+.carousel-inner {
+	margin:auto;
+	width: 70%;
+}
+.carousel-inner img {
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 150px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
